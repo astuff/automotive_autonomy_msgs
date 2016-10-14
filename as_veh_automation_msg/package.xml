@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>as_veh_automation_msg</name>
+  <version>0.0.0</version>
+  <description>AutonomouStuff messages for vehicle automation</description>
+
+  <maintainer email="dstanek@autonomoustuff.com">Daniel Stanek</maintainer>
+  <license>BSD</license>
+  <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>as_generic_msg</run_depend>
+  <run_depend>highway_msg</run_depend>
+  <run_depend>radar_msg</run_depend>
+
+  <export>
+   <metapackage />
+  </export>
+</package>
