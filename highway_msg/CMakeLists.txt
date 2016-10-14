@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 add_message_files(DIRECTORY msg FILES
   adaptive_cruise_control_command.msg
   adaptive_cruise_control_settings.msg
+  desired_destination.msg
   distance_to_destination.msg
   lane.msg
   lane_models.msg
