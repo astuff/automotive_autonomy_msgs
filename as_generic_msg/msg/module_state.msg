@@ -6,4 +6,5 @@ uint16 moduleId # moduleId of the source node of this message
 
 uint8 state     # Current state
 
+string info     # Information on current state
 
