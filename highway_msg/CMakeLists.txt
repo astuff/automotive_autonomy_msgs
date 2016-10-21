@@ -9,6 +9,7 @@ add_message_files(DIRECTORY msg FILES
   adaptive_cruise_control_settings.msg
   desired_destination.msg
   distance_to_destination.msg
+  driver_commands.msg
   lane.msg
   lane_models.msg
   speed.msg
