@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
+  command_with_handshake.msg
   module_state.msg
 )
 

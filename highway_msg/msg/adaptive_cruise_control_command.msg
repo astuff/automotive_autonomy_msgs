@@ -4,7 +4,8 @@
 uint8 msg_counter   # Increments each time a command is sent
                     # An acknowledge message should be published with this value
 
-float32 set_speed   # Engage ACC with this speed (m/sec)
+float32 set_speed   # Speed setpoint (m/sec)
+uint16 set          # Engage ACC at the above speed set point
 uint16 resume       # Resume ACC at previous speed set point
 uint16 cancel       # Disengage ACC
 uint16 speedUp      # Increase speed set point
