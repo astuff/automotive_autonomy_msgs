@@ -3,7 +3,15 @@
 
 Header header
 
-uint16 number
-radar[] objects
+# ESR status1
+uint16      timeStamp
+uint16      rollingCount
+bool        commError
+float32     curvature
+uint16      scanId
+float32     yawRate
+     
+uint16      number
+radar[]     objects
 
 
