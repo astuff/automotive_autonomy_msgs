@@ -8,6 +8,17 @@ add_message_files(DIRECTORY msg FILES
   cipv.msg
   radar.msg
   radar_objects.msg
+  radar_status1.msg
+  radar_status2.msg
+  radar_status3.msg
+  radar_status4.msg
+  radar_status5.msg
+  radar_status6.msg
+  radar_status7.msg
+  radar_status8.msg
+  radar_status9.msg
+  radar_valid1.msg
+  radar_valid2.msg
 )
 
 ## Generate added messages and services
