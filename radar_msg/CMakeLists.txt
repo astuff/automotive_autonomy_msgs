@@ -22,6 +22,8 @@ add_message_files(DIRECTORY msg FILES
   radar_rx_vehicle1.msg
   radar_rx_vehicle2.msg
   radar_rx_vehicle3.msg
+  radar_rx_vehicle4.msg
+  radar_rx_vehicle5.msg
 )
 
 ## Generate added messages and services
