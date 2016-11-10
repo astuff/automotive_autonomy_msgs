@@ -3,7 +3,9 @@
 
 Header header
 
-uint16      number
-radar[]     objects
+uint16              number_of_targets
+radar_target[]     objects
+
+
 
 

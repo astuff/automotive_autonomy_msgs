@@ -3,6 +3,6 @@
 
 Header header
 
-uint16 valid       # A CIPV is currently being tracked
-radar object       # The measured parameters of the CIPV
+uint16       valid       # A CIPV is currently being tracked
+radar_target object       # The measured parameters of the CIPV
 
