@@ -7,6 +7,8 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 add_message_files(DIRECTORY msg FILES
   command_with_handshake.msg
   module_state.msg
+  point_of_interest.msg
+  point_of_interest_list.msg
 )
 
 ## Generate added messages and services
