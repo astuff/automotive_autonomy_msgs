@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package>
   <name>highway_msg</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>Highway Messages</description>
 
   <maintainer email="dstanek@autonomoustuff.com">Daniel Stanek</maintainer>
-  <license>BSD</license>
+  <license>BSD 3-Clause</license>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
 
   <buildtool_depend>catkin</buildtool_depend>

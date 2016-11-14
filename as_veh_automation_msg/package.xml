@@ -5,7 +5,7 @@
   <description>AutonomouStuff messages for vehicle automation</description>
 
   <maintainer email="dstanek@autonomoustuff.com">Daniel Stanek</maintainer>
-  <license>BSD</license>
+  <license>BSD 3-Clause</license>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
 
   <buildtool_depend>catkin</buildtool_depend>
