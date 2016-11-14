@@ -9,6 +9,9 @@ add_message_files(DIRECTORY msg FILES
   module_state.msg
   point_of_interest.msg
   point_of_interest_list.msg
+  point_of_interest_status.msg
+  point_of_interest_request.msg
+  point_of_interest_response.msg
 )
 
 ## Generate added messages and services

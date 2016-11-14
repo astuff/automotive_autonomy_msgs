@@ -1,0 +1,16 @@
+# Point of Interest Response Message
+# Contains status information about the points within the threshold
+
+Header header
+
+string name             # Name of the point of interest list
+
+uint16 moduleId         # moduleId of the requesting node
+
+uint16 requestId        # Unique id of this request
+
+uint16 update_num       # The update number of the point list to use
+
+point_of_interest_status[] point_statuses # The status information
+
+
