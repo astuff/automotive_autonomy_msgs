@@ -8,6 +8,9 @@ uint16 following_spot   # Discrete following location
                         # n = following distance is the maximum allowed distance
                         #      where (n + 1) is the number of allowed distances
 
+float32[] spot_percent  # Where spots are relative to maximum allowed distance
+                        # 0 to 1.0 for the last spot
+
 float32 cipv_percent    # Where CIPV is relative to the maximum allowed distance
                         # 0 = there isn't a detected CIPV
                         # 1.0 = the CIPV is at the maximum allowed distance
