@@ -12,4 +12,5 @@ float64 curvature_derivative  # Amount curvature changes as you move away from t
 
 float64 marker_width          # Width of the painted marker (not distance between lane markers) (m)
 
+float64 view_range            # Physical view range of the lane mark (m)
 
