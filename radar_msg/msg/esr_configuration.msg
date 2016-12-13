@@ -10,6 +10,3 @@ float32     angle_misalignment
 float32     lateral_mounting_offset
 bool        radar_cmd_radiate
 bool        mmr_upside_down
-
-
-

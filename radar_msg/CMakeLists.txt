@@ -12,7 +12,7 @@ add_message_files(DIRECTORY msg FILES
   radar_status.msg
   radar_error_status.msg
   # high level Rx
-  radar_as_rx.msg
+  esr_configuration.msg
 )
 
 ## Generate added messages and services
