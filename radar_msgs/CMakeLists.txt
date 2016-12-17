@@ -1,23 +1,18 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(highway_msg)
+project(radar_msgs)
 
 find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genmsg)
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  adaptive_cruise_control_command.msg
-  adaptive_cruise_control_settings.msg
-  desired_destination.msg
-  distance_to_destination.msg
-  driver_commands.msg
-  lane.msg
-  lane_models.msg
-  speed.msg
-  speed_mode.msg
-  speed_pedals.msg
-  steer.msg
-  steer_mode.msg
-  steer_wheel.msg
+  cipv.msg
+  radar_target.msg
+  radar_objects.msg
+  # high level Tx
+  radar_status.msg
+  radar_error_status.msg
+  # high level Rx
+  esr_configuration.msg
 )
 
 ## Generate added messages and services

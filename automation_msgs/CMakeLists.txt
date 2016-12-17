@@ -1,18 +1,17 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(radar_msg)
+project(automation_msgs)
 
 find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genmsg)
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  cipv.msg
-  radar_target.msg
-  radar_objects.msg
-  # high level Tx
-  radar_status.msg
-  radar_error_status.msg
-  # high level Rx
-  esr_configuration.msg
+  command_with_handshake.msg
+  module_state.msg
+  point_of_interest.msg
+  point_of_interest_list.msg
+  point_of_interest_status.msg
+  point_of_interest_request.msg
+  point_of_interest_response.msg
 )
 
 ## Generate added messages and services
