@@ -1,7 +1,7 @@
 # Steering Control Message with Mode
 # Contains steering commands and desired autonomy active mode flag
 
-Header header
+std_msgs/Header header
 
 uint16 mode # Is 1 if autonomy mode should be active
 

@@ -1,9 +1,9 @@
-# Speed Control Message
-# Contains speed commands
+# Speed Control Message with Mode
+# Contains speed commands and desired autonomy active mode flag
 
-Header header
+std_msgs/Header header
 
-uint16 moduleId # moduleId of the source node of this message
+uint16 mode # Is 1 if autonomy mode should be active
 
 float32 speed               # Desired speed (m/sec)
 float32 accelerationLimit   # Max acceleration limit (m/sec^2)

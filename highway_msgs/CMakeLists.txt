@@ -5,19 +5,19 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  adaptive_cruise_control_command.msg
-  adaptive_cruise_control_settings.msg
-  desired_destination.msg
-  distance_to_destination.msg
-  driver_commands.msg
-  lane.msg
-  lane_models.msg
-  speed.msg
-  speed_mode.msg
-  speed_pedals.msg
-  steer.msg
-  steer_mode.msg
-  steer_wheel.msg
+  AdaptiveCruiseControlCommand.msg
+  AdaptiveCruiseControlSettings.msg
+  DesiredDestination.msg
+  DistanceToDestination.msg
+  DriverCommands.msg
+  Lane.msg
+  LaneModels.msg
+  Speed.msg
+  SpeedMode.msg
+  SpeedPedals.msg
+  Steer.msg
+  SteerMode.msg
+  SteerWheel.msg
 )
 
 ## Generate added messages and services
