@@ -1,7 +1,7 @@
 # Module State Message
 # Contains the state of a module
 
-Header header
+std_msgs/Header header
 
 uint16 moduleId # moduleId of the source node of this message
 

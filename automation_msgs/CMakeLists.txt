@@ -5,13 +5,13 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  command_with_handshake.msg
-  module_state.msg
-  point_of_interest.msg
-  point_of_interest_list.msg
-  point_of_interest_status.msg
-  point_of_interest_request.msg
-  point_of_interest_response.msg
+  CommandWithHandshake.msg
+  ModuleState.msg
+  PointOfInterest.msg
+  PointOfInterestArray.msg
+  PointOfInterestStatus.msg
+  PointOfInterestRequest.msg
+  PointOfInterestResponse.msg
 )
 
 ## Generate added messages and services

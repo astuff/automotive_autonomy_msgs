@@ -2,7 +2,6 @@
 # Contains an array of points of interest
 # update_num is incremented each time a new list is sent
 
-Header header
+std_msgs/Header header
 uint16 update_num
-point_of_interest[] pointList
-
+automation_msgs/PointOfInterest[] pointList

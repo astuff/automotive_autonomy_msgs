@@ -1,7 +1,7 @@
 # Point of Interest Request Message
 # Contains information needed to request point of interest information
 
-Header header
+std_msgs/Header header
 
 string name        # Name of the point of interest list
 
