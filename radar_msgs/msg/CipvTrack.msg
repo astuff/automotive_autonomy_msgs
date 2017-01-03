@@ -1,6 +1,6 @@
 # Closest In-Path Vehicle Radar Track
 
-Header header
+std_msgs/Header header
 
 bool is_valid                   # Whether or not the track is a valid CIPV
-radar_msgs/radar_track track    # The CIPV track
+radar_msgs/RadarTrack track     # The CIPV track

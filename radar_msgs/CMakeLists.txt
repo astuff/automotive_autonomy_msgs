@@ -10,19 +10,19 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  cipv.msg
-  radar_target.msg
-  radar_objects.msg
-  radar_detection.msg
-  radar_detection_stamped.msg
-  radar_detection_array.msg
-  radar_track.msg
-  radar_track_stamped.msg
-  radar_track_array.msg
-  cipv_track.msg
+  Cipv.msg
+  RadarTarget.msg
+  RadarObjects.msg
+  RadarDetection.msg
+  RadarDetectionStamped.msg
+  RadarDetectionArray.msg
+  RadarTrack.msg
+  RadarTrackStamped.msg
+  RadarTrackArray.msg
+  CipvTrack.msg
   # high level Tx
-  radar_status.msg
-  radar_error_status.msg
+  RadarStatus.msg
+  RadarErrorStatus.msg
 )
 
 ## Generate added messages and services
