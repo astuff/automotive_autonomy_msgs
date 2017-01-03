@@ -19,6 +19,7 @@ add_message_files(DIRECTORY msg FILES
   radar_track.msg
   radar_track_stamped.msg
   radar_track_array.msg
+  cipv_track.msg
   # high level Tx
   radar_status.msg
   radar_error_status.msg
