@@ -1,24 +1,38 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(radar_msgs)
 
-find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genmsg)
+find_package(catkin REQUIRED COMPONENTS
+    roscpp
+    message_generation
+    std_msgs
+    geometry_msgs
+    genmsg)
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
   cipv.msg
   radar_target.msg
   radar_objects.msg
+  radar_detection.msg
+  radar_detection_stamped.msg
+  radar_detection_array.msg
+  radar_track.msg
+  radar_track_stamped.msg
+  radar_track_array.msg
   # high level Tx
   radar_status.msg
   radar_error_status.msg
 )
 
 ## Generate added messages and services
-generate_messages(DEPENDENCIES std_msgs)
+generate_messages(DEPENDENCIES
+    std_msgs
+    geometry_msgs)
 
 ## Declare a catkin package
 catkin_package(CATKIN_DEPENDS
   message_runtime
   std_msgs
+  geometry_msgs
 )
 
