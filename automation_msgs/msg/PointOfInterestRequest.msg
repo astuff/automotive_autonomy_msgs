@@ -5,7 +5,7 @@ std_msgs/Header header
 
 string name        # Name of the point of interest list
 
-uint16 moduleId    # moduleId of the requesting node
+string module_name # module name of the requesting node
 
 uint16 requestId   # Unique id of this request
                    # Can make another request with the same requestId and

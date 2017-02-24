@@ -6,10 +6,10 @@ uint8 msg_counter   # Increments each time a command is sent
 
 uint16 engage       # Engage auto
 uint16 disengage    # Disengage auto
-uint16 speedUp      # Increase speed set point
-uint16 slowDown     # Decrease speed set point
+uint16 speed_up     # Increase speed set point
+uint16 slow_down    # Decrease speed set point
 uint16 further      # Increase distance set point
 uint16 closer       # Decrease distance set point
-uint16 rightTurn    # Right turn signal
-uint16 leftTurn     # Left turn signal
+uint16 right_turn   # Right turn signal
+uint16 left_turn    # Left turn signal
 

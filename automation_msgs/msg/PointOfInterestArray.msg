@@ -4,4 +4,4 @@
 
 std_msgs/Header header
 uint16 update_num
-automation_msgs/PointOfInterest[] pointList
+automation_msgs/PointOfInterest[] point_list
