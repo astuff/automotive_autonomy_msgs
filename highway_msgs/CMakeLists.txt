@@ -14,10 +14,8 @@ add_message_files(DIRECTORY msg FILES
   LaneModels.msg
   Speed.msg
   SpeedMode.msg
-  SpeedPedals.msg
   Steer.msg
   SteerMode.msg
-  SteerWheel.msg
 )
 
 ## Generate added messages and services

@@ -5,13 +5,25 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs genms
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
+  BlindSpotIndicators.msg
+  BrakeCommand.msg
+  BrakeFeedback.msg
   CommandWithHandshake.msg
+  HillStartAssist.msg
   ModuleState.msg
   PointOfInterest.msg
   PointOfInterestArray.msg
   PointOfInterestStatus.msg
   PointOfInterestRequest.msg
   PointOfInterestResponse.msg
+  SpeedPedals.msg
+  SteerWheel.msg
+  SteeringCommand.msg
+  SteeringFeedback.msg
+  ThrottleCommand.msg
+  ThrottleFeedback.msg
+  TurnSignalCommand.msg
+  VelocityAccel.msg
 )
 
 ## Generate added messages and services
