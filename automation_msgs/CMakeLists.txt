@@ -9,6 +9,9 @@ add_message_files(DIRECTORY msg FILES
   BrakeCommand.msg
   BrakeFeedback.msg
   CommandWithHandshake.msg
+  Gear.msg
+  GearCommand.msg
+  GearFeedback.msg
   HillStartAssist.msg
   ModuleState.msg
   PointOfInterest.msg
