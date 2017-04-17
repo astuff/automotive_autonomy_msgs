@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
-  <name>highway_msgs</name>
-  <version>1.0.1</version>
+  <name>perception_msgs</name>
+  <version>1.1.0</version>
   <description>Highway Messages</description>
 
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Development Team</maintainer>
@@ -10,9 +10,13 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>std_msgs</build_depend>
   <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>shape_msgs</build_depend>
 
-  <run_depend>std_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>shape_msgs</run_depend>
 </package>
