@@ -13,6 +13,7 @@ add_message_files(DIRECTORY msg FILES
   BrakeCommand.msg
   BrakeFeedback.msg
   CommandWithHandshake.msg
+  CurvatureFeedback.msg
   Gear.msg
   GearCommand.msg
   GearFeedback.msg
