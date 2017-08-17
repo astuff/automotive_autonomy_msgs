@@ -9,7 +9,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
-  UserInputCruiseControl.msg
+  UserInputADAS.msg
   UserInputMedia.msg
   UserInputMenus.msg
 )
