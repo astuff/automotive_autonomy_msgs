@@ -9,6 +9,7 @@ find_package(catkin REQUIRED
 
 add_message_files(
   FILES
+  CabinReport.msg
   UserInputADAS.msg
   UserInputMedia.msg
   UserInputMenus.msg
