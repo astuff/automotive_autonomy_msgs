@@ -12,13 +12,11 @@ find_package(catkin REQUIRED
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg
   FILES
-  ObjectClassified.msg
-  ObjectClassifiedWithCovariance.msg
-  ObjectDetected.msg
-  ObjectDetectedWithCovariance.msg
-  ObjectTracked.msg
-  ObjectTrackedWithCovariance.msg
   SolidPrimitiveWithCovariance.msg
+  Object.msg
+  ObjectWithCovariance.msg
+  ObjectStamped.msg
+  ObjectWithCovarianceStamped.msg
 )
 
 ## Generate added messages and services
