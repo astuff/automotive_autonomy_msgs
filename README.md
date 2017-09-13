@@ -17,7 +17,7 @@ Generic messages to transport platform feedback on human-machine interface contr
 
 ## perception_msgs ##
 
-Generic messages to represent data received from sensors which cannot be represented by those present in `sensor_msgs`.
+Generic messages to represent abstracted data received from any sensor type.
 
 ## platform_automation_msgs ##
 
