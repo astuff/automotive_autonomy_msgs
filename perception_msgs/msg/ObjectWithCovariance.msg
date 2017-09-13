@@ -1,5 +1,8 @@
+# This represents an estimated object with reference coordinate frame and timestamp.
+Header header
+
 # The id of the object (presumably from the detecting sensor).
-uint32 id 
+uint32 id
 
 # A Detected object is one which has been seen in at least one scan/frame of a sensor.
 # A Tracked object is one which has been correlated over multiple scans/frames of a sensor.
@@ -16,7 +19,7 @@ uint8 OBJECT_TRACKED=1
 bool object_classified
 
 # The detected position and orientation of the object.
-geometry_msgs/PoseWithCovariance pose 
+geometry_msgs/PoseWithCovariance pose
 
 # The detected linear and angular velocities of the object.
 geometry_msgs/TwistWithCovariance twist

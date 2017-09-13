@@ -15,8 +15,8 @@ add_message_files(DIRECTORY msg
   SolidPrimitiveWithCovariance.msg
   Object.msg
   ObjectWithCovariance.msg
-  ObjectStamped.msg
-  ObjectWithCovarianceStamped.msg
+  ObjectArray.msg
+  ObjectWithCovarianceArray.msg
 )
 
 ## Generate added messages and services
