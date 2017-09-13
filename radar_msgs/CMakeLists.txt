@@ -5,12 +5,10 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   geometry_msgs
-  genmsg
 )
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  Cipv.msg
   RadarTarget.msg
   RadarObjects.msg
   RadarDetection.msg
@@ -19,7 +17,6 @@ add_message_files(DIRECTORY msg FILES
   RadarTrack.msg
   RadarTrackStamped.msg
   RadarTrackArray.msg
-  CipvTrack.msg
   # high level Tx
   RadarStatus.msg
   RadarErrorStatus.msg

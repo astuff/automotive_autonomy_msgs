@@ -9,9 +9,8 @@
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>automation_msgs</run_depend>
-  <run_depend>highway_msgs</run_depend>
+  <run_depend>module_comm_msgs</run_depend>
   <run_depend>perception_msgs</run_depend>
+  <run_depend>platform_comm_msgs</run_depend>
   <run_depend>radar_msgs</run_depend>
-  <run_depend>hmi_msgs</run_depend>
 </package>

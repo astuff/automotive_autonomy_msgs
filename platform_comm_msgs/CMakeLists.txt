@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(automation_msgs)
+project(platform_comm_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS
@@ -12,25 +12,23 @@ add_message_files(DIRECTORY msg FILES
   BlindSpotIndicators.msg
   BrakeCommand.msg
   BrakeFeedback.msg
-  CommandWithHandshake.msg
+  CabinReport.msg
   CurvatureFeedback.msg
-  Gear.msg
+  DriverCommands.msg
   GearCommand.msg
   GearFeedback.msg
+  Gear.msg
   HillStartAssist.msg
-  ModuleState.msg
-  PointOfInterest.msg
-  PointOfInterestArray.msg
-  PointOfInterestStatus.msg
-  PointOfInterestRequest.msg
-  PointOfInterestResponse.msg
   SpeedPedals.msg
-  SteerWheel.msg
   SteeringCommand.msg
   SteeringFeedback.msg
+  SteerWheel.msg
   ThrottleCommand.msg
   ThrottleFeedback.msg
   TurnSignalCommand.msg
+  UserInputADAS.msg
+  UserInputMedia.msg
+  UserInputMenus.msg
   VelocityAccel.msg
 )
 

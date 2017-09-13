@@ -3,5 +3,5 @@
 
 std_msgs/Header header
 
-highway_msgs/Lane left_lane
-highway_msgs/Lane right_lane
+perception_msgs/Lane left_lane
+perception_msgs/Lane right_lane

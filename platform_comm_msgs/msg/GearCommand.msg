@@ -2,6 +2,4 @@
 
 std_msgs/Header header
 
-automation_msgs/Gear command
-
-
+platform_comm_msgs/Gear command

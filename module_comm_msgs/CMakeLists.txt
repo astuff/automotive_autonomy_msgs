@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(highway_msgs)
+project(module_comm_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS
@@ -11,21 +11,23 @@ find_package(catkin REQUIRED
 add_message_files(DIRECTORY msg FILES
   AdaptiveCruiseControlCommand.msg
   AdaptiveCruiseControlSettings.msg
+  CommandWithHandshake.msg
   DesiredDestination.msg
   DistanceToDestination.msg
-  DriverCommands.msg
-  Lane.msg
-  LaneModels.msg
-  Speed.msg
+  ModuleState.msg
+  PointOfInterestArray.msg
+  PointOfInterest.msg
+  PointOfInterestRequest.msg
+  PointOfInterestResponse.msg
+  PointOfInterestStatus.msg
   SpeedMode.msg
-  Steer.msg
+  Speed.msg
   SteerMode.msg
+  Steer.msg
 )
 
 ## Generate added messages and services
-generate_messages(DEPENDENCIES
-  std_msgs
-)
+generate_messages(DEPENDENCIES std_msgs)
 
 ## Declare a catkin package
 catkin_package(CATKIN_DEPENDS
