@@ -29,7 +29,6 @@ add_message_files(DIRECTORY msg FILES
   UserInputADAS.msg
   UserInputMedia.msg
   UserInputMenus.msg
-  VelocityAccel.msg
 )
 
 ## Generate added messages and services

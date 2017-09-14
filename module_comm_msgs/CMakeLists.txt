@@ -24,6 +24,7 @@ add_message_files(DIRECTORY msg FILES
   Speed.msg
   SteerMode.msg
   Steer.msg
+  VelocityAccel.msg
 )
 
 ## Generate added messages and services
