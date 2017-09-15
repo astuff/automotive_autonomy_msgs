@@ -1,9 +1,10 @@
 std_msgs/Header header
 
-# ESR Error Status
-bool        ESRcommError
-bool        ESRoverheatError
-bool        ESRrangePerfError
-bool        ESRinternalError
-bool        ESRxcvrOperational
+#  Error Status
+
+bool        comm_error
+bool        overheat_error
+bool        range_perf_error
+bool        internal_error
+bool        xcvr_operational
 
