@@ -51,6 +51,7 @@ uint8 CLASSIFICATION_SIGN=11
 
 # The certainty of the classification from the originating sensor.
 # Higher value indicates greater certainty (MAX=255).
+# It is recommended that a native sensor value be scaled to 0-255 for interoperability.
 uint8 classification_certainty
 
 # The number of scans/frames from the sensor that this object has been classified as the current classification.
