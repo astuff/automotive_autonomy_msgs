@@ -1,6 +1,8 @@
 # Adaptive Cruise Control Settings Message
 # Contains the current settings/status of ACC
 
+Header header
+
 float32 set_speed       # Current speed set point (m/sec)
 
 uint16 following_spot   # Discrete following location

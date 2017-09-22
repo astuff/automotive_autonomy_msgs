@@ -1,6 +1,8 @@
 # Distance To Destination Message
 # Contains the distance to the desired destination
 
+Header header
+
 uint8 msg_counter   # Increments each time a command is sent
                     # An acknowledge message should be published with this value
 
