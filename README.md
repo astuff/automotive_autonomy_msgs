@@ -1,6 +1,7 @@
 # ROS Messages for mobile platform automation #
 
-See the READMEs in each ROS package for further details of the included messages.
+[![Build Status](https://travis-ci.org/astuff/platform_automation_msgs.svg?branch=master)](https://travis-ci.org/astuff/platform_automation_msgs)
+
 `platform_automation_msgs` contains the following ROS packages:
 
 ## module_comm_msgs ##
