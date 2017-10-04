@@ -5,7 +5,7 @@
   <description>Generic Messages for Communication with a Mobile Autonomous Platform</description>
 
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Development Team</maintainer>
-  <license>GNU GPL v3</license>
+  <license>GNU GPLv3</license>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
   <author email="jwhitley@autonomoustuff.com">Josh Whitley</author>
 

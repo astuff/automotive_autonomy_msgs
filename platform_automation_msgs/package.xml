@@ -5,7 +5,7 @@
   <description>Messages for vehicle automation</description>
 
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Development Team</maintainer>
-  <license>BSD 3-Clause</license>
+  <license>GNU GPLv3</license>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
 
   <buildtool_depend>catkin</buildtool_depend>
@@ -13,4 +13,8 @@
   <run_depend>perception_msgs</run_depend>
   <run_depend>platform_comm_msgs</run_depend>
   <run_depend>radar_msgs</run_depend>
+
+  <export>
+    <metapackage />
+  </export>
 </package>
