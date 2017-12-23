@@ -13,6 +13,7 @@ add_message_files(DIRECTORY msg FILES
   AdaptiveCruiseControlSettings.msg
   CommandWithHandshake.msg
   DesiredDestination.msg
+  Direction.msg
   DistanceToDestination.msg
   ModuleState.msg
   PointOfInterestArray.msg
