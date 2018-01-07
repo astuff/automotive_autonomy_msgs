@@ -26,6 +26,7 @@ add_message_files(DIRECTORY msg FILES
   SteerMode.msg
   Steer.msg
   VelocityAccel.msg
+  VelocityAccelCov.msg
 )
 
 add_service_files(DIRECTORY srv FILES
