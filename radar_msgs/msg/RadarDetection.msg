@@ -6,5 +6,5 @@ uint16 detection_id                         # The ID of this detection generated
                                             # a sequential identifier for each detection in a scan.
 
 geometry_msgs/Point position                # Only the x and y components are valid.
-geometry_msgs/Vector3 linear_velocity       # Only the x component is valid.
+geometry_msgs/Vector3 velocity              # range_rate rectangular transformation to x and y components
 float64 amplitude                           # The detection amplitude in dB.
