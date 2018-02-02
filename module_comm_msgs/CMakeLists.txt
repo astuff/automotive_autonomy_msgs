@@ -5,6 +5,7 @@ find_package(catkin REQUIRED
   COMPONENTS
   message_generation
   std_msgs
+  geometry_msgs
 )
 
 ## Declare ROS messages and services
@@ -15,12 +16,15 @@ add_message_files(DIRECTORY msg FILES
   DesiredDestination.msg
   Direction.msg
   DistanceToDestination.msg
+  LaneBoundary.msg
   ModuleState.msg
   PointOfInterestArray.msg
   PointOfInterest.msg
   PointOfInterestRequest.msg
   PointOfInterestResponse.msg
   PointOfInterestStatus.msg
+  RoadBoundaries.msg
+  RoadBoundariesArray.msg
   SpeedMode.msg
   Speed.msg
   SteerMode.msg
@@ -34,11 +38,12 @@ add_service_files(DIRECTORY srv FILES
 )
 
 ## Generate added messages and services
-generate_messages(DEPENDENCIES std_msgs)
+generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
 ## Declare a catkin package
 catkin_package(CATKIN_DEPENDS
   message_runtime
   std_msgs
+  geometry_msgs
 )
 
