@@ -22,6 +22,8 @@ float32 cipv_percent    # Where CIPV is relative to the maximum allowed distance
                         # 1.0 = the CIPV is at the maximum allowed distance
                         # The maximum allowed distance varies with speed
 
+float32 max_distance    # The distance corresponding to 1.0 percent (meters)
+
 # So if the driver wants to maintain the greatest separation behind the CIPV,
 # he can press the increase distance button over and over until the distance
 # set point reaches the maximum allowed distance.  If there are 5 allowed
