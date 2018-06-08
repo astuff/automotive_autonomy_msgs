@@ -3,7 +3,7 @@
   <name>platform_automation_msgs</name>
   <version>2.0.0</version>
   <description>Messages for vehicle automation</description>
-  <license>GPLv3</license>
+  <license>MIT</license>
 
   <url type="repository">https://github.com/astuff/platform_automation_msgs</url>
   <url type="bugtracker">https://github.com/astuff/platform_automation_msgs/issues</url>
