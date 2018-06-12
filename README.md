@@ -19,7 +19,3 @@ Metapackage which relies on all included ROS packages in this stack.
 ## platform_comm_msgs ##
 
 Generic messages for communication with autonomous mobile platforms. This includes command and report messages for major platform systems (speed, steering, turn signals, etc.).
-
-## radar_msgs ##
-
-Messages to represent different data output from a radar sensor (not currently available in `sensor_msgs`).
