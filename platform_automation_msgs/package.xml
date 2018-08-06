@@ -14,7 +14,6 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>module_comm_msgs</exec_depend>
-  <exec_depend>perception_msgs</exec_depend>
   <exec_depend>platform_comm_msgs</exec_depend>
 
   <export>
