@@ -2,8 +2,8 @@
 Changelog for package module_comm_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2018-08-07)
+------------------
 * add RouteArray message to handle roads with more than one lane
 * Fixing license in package.xml.
 * Add ACC max distance in meters so that it can be displayed on shuttle GUI instead of just the 0 to 100% value on the existing highway autopilot GUI

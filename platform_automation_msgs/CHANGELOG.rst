@@ -2,8 +2,8 @@
 Changelog for package platform_automation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2018-08-07)
+------------------
 * Moving perception_msgs to astuff_sensor_msgs.
 * Moving radar_msgs to astuff_sensor_msgs.
 * Fixing license in package.xml.
