@@ -8,10 +8,6 @@
 
 Generic messages for inter-module communication in an automation system. Contains module-specific messages for control and feedback.
 
-## perception_msgs ##
-
-Generic messages to represent abstracted data received from any sensor type.
-
 ## platform_automation_msgs ##
 
 Metapackage which relies on all included ROS packages in this stack.
