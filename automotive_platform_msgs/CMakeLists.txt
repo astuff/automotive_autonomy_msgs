@@ -9,6 +9,8 @@ find_package(catkin REQUIRED
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
+  AdaptiveCruiseControlCommand.msg
+  AdaptiveCruiseControlSettings.msg
   BlindSpotIndicators.msg
   BrakeCommand.msg
   BrakeFeedback.msg
@@ -20,8 +22,12 @@ add_message_files(DIRECTORY msg FILES
   Gear.msg
   HillStartAssist.msg
   SpeedPedals.msg
+  SpeedMode.msg
+  Speed.msg
   SteeringCommand.msg
+  Steer.msg
   SteeringFeedback.msg
+  SteerMode.msg
   SteerWheel.msg
   ThrottleCommand.msg
   ThrottleFeedback.msg
@@ -29,6 +35,8 @@ add_message_files(DIRECTORY msg FILES
   UserInputADAS.msg
   UserInputMedia.msg
   UserInputMenus.msg
+  VelocityAccel.msg
+  VelocityAccelCov.msg
 )
 
 ## Generate added messages and services

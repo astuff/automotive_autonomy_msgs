@@ -11,8 +11,6 @@ find_package(catkin REQUIRED
 
 ## Declare ROS messages and services
 add_message_files(DIRECTORY msg FILES
-  AdaptiveCruiseControlCommand.msg
-  AdaptiveCruiseControlSettings.msg
   CommandWithHandshake.msg
   DesiredDestination.msg
   Direction.msg
@@ -24,12 +22,6 @@ add_message_files(DIRECTORY msg FILES
   PointOfInterestResponse.msg
   PointOfInterestStatus.msg
   RouteArray.msg
-  SpeedMode.msg
-  Speed.msg
-  SteerMode.msg
-  Steer.msg
-  VelocityAccel.msg
-  VelocityAccelCov.msg
 )
 
 add_service_files(DIRECTORY srv FILES
