@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/astuff/automotive_autonomy_msgs.svg?branch=master)](https://travis-ci.org/astuff/automotive_autonomy_msgs)
 
-`platform_automation_msgs` contains the following ROS packages:
+`automotive_autonomy_msgs` contains the following ROS packages:
 
 ## automotive_navigation_msgs ##
 
