@@ -4,4 +4,4 @@
 
 std_msgs/Header header
 uint16 update_num
-module_comm_msgs/PointOfInterest[] point_list
+automotive_navigation_msgs/PointOfInterest[] point_list

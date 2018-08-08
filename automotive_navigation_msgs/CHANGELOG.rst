@@ -1,6 +1,11 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package module_comm_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package automotive_navigation_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2.0.2 (2018-08-08)
+------------------
+* Reorganized messages into renamed packages.
+* Changed package name from module_comm_msgs to automotive_navigation_msgs.
 
 2.0.1 (2018-08-07)
 ------------------

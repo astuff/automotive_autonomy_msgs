@@ -2,4 +2,4 @@
 
 std_msgs/Header header
 
-platform_comm_msgs/Gear current_gear
+automotive_platform_msgs/Gear current_gear
