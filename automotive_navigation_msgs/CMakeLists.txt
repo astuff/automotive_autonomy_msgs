@@ -14,12 +14,15 @@ add_message_files(DIRECTORY msg FILES
   DesiredDestination.msg
   Direction.msg
   DistanceToDestination.msg
+  LaneBoundary.msg
+  LaneBoundaryArray.msg
   ModuleState.msg
   PointOfInterestArray.msg
   PointOfInterest.msg
   PointOfInterestRequest.msg
   PointOfInterestResponse.msg
   PointOfInterestStatus.msg
+  RoadNetworkBoundaries.msg
 )
 
 add_service_files(DIRECTORY srv FILES
