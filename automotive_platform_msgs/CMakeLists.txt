@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(platform_comm_msgs)
+project(automotive_platform_msgs)
 
 find_package(catkin REQUIRED
   COMPONENTS

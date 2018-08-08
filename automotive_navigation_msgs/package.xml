@@ -1,17 +1,19 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>platform_comm_msgs</name>
+  <name>automotive_navigation_msgs</name>
   <version>2.0.1</version>
-  <description>Generic Messages for Communication with a Mobile Autonomous Platform</description>
+  <description>Generic Messages for Navigation Objectives in Automotive Automation Software</description>
   <license>MIT</license>
 
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Development Team</maintainer>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
-  <author email="jwhitley@autonomoustuff.com">Josh Whitley</author>
+  <author email="jwhitley@autonomoustuff.com">Joshua Whitley</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>message_generation</build_depend>
   <depend>std_msgs</depend>
+  <depend>marti_nav_msgs</depend>
+  <depend>geometry_msgs</depend>
   <exec_depend>message_runtime</exec_depend>
 </package>

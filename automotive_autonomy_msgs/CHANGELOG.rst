@@ -1,6 +1,10 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package platform_automation_msgs
+Changelog for package automotive_autonomy_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2.0.2 (2018-08-08)
+------------------
+* Changed metapackage name to automotive_autonomy_msgs.
 
 2.0.1 (2018-08-07)
 ------------------

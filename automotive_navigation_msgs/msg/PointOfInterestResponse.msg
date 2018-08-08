@@ -11,4 +11,4 @@ uint16 requestId        # Unique id of this request
 
 uint16 update_num       # The update number of the point list to use
 
-module_comm_msgs/PointOfInterestStatus[] point_statuses # The status information
+automotive_navigation_msgs/PointOfInterestStatus[] point_statuses # The status information
