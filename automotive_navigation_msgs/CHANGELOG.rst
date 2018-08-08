@@ -6,9 +6,6 @@ Changelog for package automotive_navigation_msgs
 ------------------
 * Reorganized messages into renamed packages.
 * Changed package name from module_comm_msgs to automotive_navigation_msgs.
-
-2.0.1 (2018-08-07)
-------------------
 * add RouteArray message to handle roads with more than one lane
 * Fixing license in package.xml.
 * Add ACC max distance in meters so that it can be displayed on shuttle GUI instead of just the 0 to 100% value on the existing highway autopilot GUI

@@ -5,9 +5,6 @@ Changelog for package automotive_autonomy_msgs
 2.0.2 (2018-08-08)
 ------------------
 * Changed metapackage name to automotive_autonomy_msgs.
-
-2.0.1 (2018-08-07)
-------------------
 * Moving perception_msgs to astuff_sensor_msgs.
 * Moving radar_msgs to astuff_sensor_msgs.
 * Fixing license in package.xml.
