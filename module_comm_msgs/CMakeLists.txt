@@ -17,15 +17,12 @@ add_message_files(DIRECTORY msg FILES
   DesiredDestination.msg
   Direction.msg
   DistanceToDestination.msg
-  LaneBoundary.msg
   ModuleState.msg
   PointOfInterestArray.msg
   PointOfInterest.msg
   PointOfInterestRequest.msg
   PointOfInterestResponse.msg
   PointOfInterestStatus.msg
-  RoadBoundaries.msg
-  RoadBoundariesArray.msg
   RouteArray.msg
   SpeedMode.msg
   Speed.msg
