@@ -11,7 +11,6 @@ jobs:
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
-            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
             rosdep install --from-paths . --ignore-src -y
             cd ..
             catkin init
