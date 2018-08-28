@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  indigo:
+    docker:
+      - image: ros:indigo-ros-core
+    steps:
+      - checkout
+      - run: echo "Indigo build."
+  kinetic:
+    docker:
+      - image: ros:kinetic-ros-core
+    steps:
+      - checkout
+      - run: echo "Kinetic build."
+workflows:
+  version: 2
+  ros_build:
+    jobs:
+      - indigo
+      - kinetic
