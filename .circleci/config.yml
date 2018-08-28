@@ -10,28 +10,87 @@ jobs:
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
-            rosdep install --from-paths . --ignore-src -y
-            cd ..
+            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
+            rosdep install --from-paths src --ignore-src -y
             catkin init
             catkin config --extend /opt/ros/$ROS_DISTRO
       - run:
           name: Build
           command: |
-            cd ..
             catkin build
       - run:
           name: Run Tests
           command: |
-            cd ..
             catkin run_tests
-    working_directory: ~/src
 
   kinetic:
     docker:
       - image: ros:kinetic-ros-core
     steps:
       - checkout
-      - run: echo "Kinetic build."
+      - run:
+          name: Set Up Environment
+          command: |
+            apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
+            source `find /opt/ros -name setup.bash | sort | head -1`
+            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
+            rosdep install --from-paths src --ignore-src -y
+            catkin init
+            catkin config --extend /opt/ros/$ROS_DISTRO
+      - run:
+          name: Build
+          command: |
+            catkin build
+      - run:
+          name: Run Tests
+          command: |
+            catkin run_tests
+
+  lunar:
+    docker:
+      - image: ros:lunar-ros-core
+    steps:
+      - checkout
+      - run:
+          name: Set Up Environment
+          command: |
+            apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
+            source `find /opt/ros -name setup.bash | sort | head -1`
+            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
+            rosdep install --from-paths src --ignore-src -y
+            catkin init
+            catkin config --extend /opt/ros/$ROS_DISTRO
+      - run:
+          name: Build
+          command: |
+            catkin build
+      - run:
+          name: Run Tests
+          command: |
+            catkin run_tests
+
+  melodic:
+    docker:
+      - image: ros:melodic-ros-core
+    steps:
+      - checkout
+      - run:
+          name: Set Up Environment
+          command: |
+            apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
+            source `find /opt/ros -name setup.bash | sort | head -1`
+            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
+            rosdep install --from-paths src --ignore-src -y
+            catkin init
+            catkin config --extend /opt/ros/$ROS_DISTRO
+      - run:
+          name: Build
+          command: |
+            catkin build
+      - run:
+          name: Run Tests
+          command: |
+            catkin run_tests
 
 workflows:
   version: 2
@@ -39,3 +98,5 @@ workflows:
     jobs:
       - indigo
       - kinetic
+      - lunar
+      - melodic
