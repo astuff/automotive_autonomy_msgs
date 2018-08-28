@@ -1,0 +1,31 @@
+before_script:
+  - apt-get update && apt-get install -y openssh-client python-catkin-tools build-essential
+  - source `find /opt/ros -name setup.bash | sort | head -1` && echo $ROS_DISTRO
+  - mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
+  - rosdep update
+  - rosdep install --from-paths src --ignore-src -y
+  - catkin init
+
+indigo:
+  image: "ros:indigo-ros-core"
+  script:
+    - catkin build
+    - catkin run_tests
+
+kinetic:
+  image: "ros:kinetic-ros-core"
+  script:
+    - catkin build
+    - catkin run_tests
+
+lunar:
+  image: "ros:lunar-ros-core"
+  script:
+    - catkin build
+    - catkin run_tests
+
+melodic:
+  image: "ros:melodic-ros-core"
+  script:
+    - catkin build
+    - catkin run_tests
