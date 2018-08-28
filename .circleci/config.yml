@@ -7,11 +7,12 @@ jobs:
       - checkout
       - run:
           name: Set Up Environment
+          working_directory: ~/src
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
             mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
-            rosdep install --from-paths src --ignore-src -y
+            rosdep install --from-paths . --ignore-src -y
             catkin init
             catkin config --extend /opt/ros/$ROS_DISTRO
       - run:
@@ -30,11 +31,11 @@ jobs:
       - checkout
       - run:
           name: Set Up Environment
+          working_directory: ~/src
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
-            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
-            rosdep install --from-paths src --ignore-src -y
+            rosdep install --from-paths . --ignore-src -y
             catkin init
             catkin config --extend /opt/ros/$ROS_DISTRO
       - run:
@@ -53,11 +54,11 @@ jobs:
       - checkout
       - run:
           name: Set Up Environment
+          working_directory: ~/src
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
-            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
-            rosdep install --from-paths src --ignore-src -y
+            rosdep install --from-paths . --ignore-src -y
             catkin init
             catkin config --extend /opt/ros/$ROS_DISTRO
       - run:
@@ -76,11 +77,11 @@ jobs:
       - checkout
       - run:
           name: Set Up Environment
+          working_directory: ~/src
           command: |
             apt-get update && apt-get install openssh-client python-catkin-tools build-essential -y
             source `find /opt/ros -name setup.bash | sort | head -1`
-            mkdir src && mv `find -maxdepth 1 -not -name . -not -name src` src/
-            rosdep install --from-paths src --ignore-src -y
+            rosdep install --from-paths . --ignore-src -y
             catkin init
             catkin config --extend /opt/ros/$ROS_DISTRO
       - run:
