@@ -1,6 +1,6 @@
 # ROS Messages for automotive platform automation #
 
-[![Build Status](https://travis-ci.org/astuff/automotive_autonomy_msgs.svg?branch=master)](https://travis-ci.org/astuff/automotive_autonomy_msgs)
+[![CircleCI](https://circleci.com/gh/astuff/automotive_autonomy_msgs/tree/master.svg?style=svg)](https://circleci.com/gh/astuff/automotive_autonomy_msgs/tree/master)
 
 `automotive_autonomy_msgs` contains the following ROS packages:
 
