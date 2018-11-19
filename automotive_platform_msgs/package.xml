@@ -5,6 +5,10 @@
   <description>Generic Messages for Communication with an Automotive Autonomous Platform</description>
   <license>MIT</license>
 
+  <url type="website">http://github.com/automotive_platform_msgs</url>
+  <url type="repository">https://github.com/astuff/automotive_autonomy_msgs</url>
+  <url type="bugtracker">https://github.com/astuff/automotive_autonomy_msgs/issues</url>
+
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Development Team</maintainer>
   <author email="dstanek@autonomoustuff.com">Daniel Stanek</author>
   <author email="jwhitley@autonomoustuff.com">Josh Whitley</author>
