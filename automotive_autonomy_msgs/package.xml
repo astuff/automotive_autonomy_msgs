@@ -5,6 +5,7 @@
   <description>Messages for vehicle automation</description>
   <license>MIT</license>
 
+  <url type="website">http://github.com/automotive_autonomy_msgs</url>
   <url type="repository">https://github.com/astuff/automotive_autonomy_msgs</url>
   <url type="bugtracker">https://github.com/astuff/automotive_autonomy_msgs/issues</url>
 
