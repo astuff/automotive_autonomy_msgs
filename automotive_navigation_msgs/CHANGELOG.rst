@@ -2,6 +2,12 @@
 Changelog for package automotive_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#13 <https://github.com/astuff/automotive_autonomy_msgs/issues/13>`_ from astuff/maint/add_urls
+* Adding URLs to package.xml files.
+* Contributors: Joshua Whitley, Rinda Gunjala
+
 2.0.2 (2018-08-08)
 ------------------
 * Reorganized messages into renamed packages.
