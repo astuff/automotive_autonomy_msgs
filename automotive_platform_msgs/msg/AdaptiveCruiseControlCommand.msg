@@ -1,7 +1,7 @@
 # Adaptive Cruise Control Command Message
 # Contains commands to engage/disengage ACC or adjust the set points
 
-Header header
+std_msgs/Header header
 
 uint8 msg_counter   # Increments each time a command is sent
                     # An acknowledge message should be published with this value

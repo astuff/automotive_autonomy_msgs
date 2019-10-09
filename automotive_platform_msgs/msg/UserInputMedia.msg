@@ -1,5 +1,5 @@
 # User input (e.g. button presses) related to media controls
-Header header
+std_msgs/Header header
 
 bool btn_vol_up
 bool btn_vol_down

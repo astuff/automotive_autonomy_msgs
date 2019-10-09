@@ -1,5 +1,5 @@
 # Inputs (e.g. button presses) for in-vehicle menus
-Header header
+std_msgs/Header header
 
 bool str_whl_left_btn_left
 bool str_whl_left_btn_down
