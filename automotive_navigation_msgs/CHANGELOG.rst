@@ -2,6 +2,11 @@
 Changelog for package automotive_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Ported to ROS2 Dashing.
+* Contributors: Joshua Whitley
+
 2.0.3 (2018-12-07)
 ------------------
 * Merge pull request `#13 <https://github.com/astuff/automotive_autonomy_msgs/issues/13>`_ from astuff/maint/add_urls
