@@ -1,41 +1,51 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(automotive_navigation_msgs)
 
-find_package(catkin REQUIRED
-  COMPONENTS
-  message_generation
-  std_msgs
-  geometry_msgs
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+set(msg_files
+  "msg/CommandWithHandshake.msg"
+  "msg/DesiredDestination.msg"
+  "msg/Direction.msg"
+  "msg/DistanceToDestination.msg"
+  "msg/LaneBoundary.msg"
+  "msg/LaneBoundaryArray.msg"
+  "msg/ModuleState.msg"
+  "msg/PointOfInterestArray.msg"
+  "msg/PointOfInterest.msg"
+  "msg/PointOfInterestRequest.msg"
+  "msg/PointOfInterestResponse.msg"
+  "msg/PointOfInterestStatus.msg"
+  "msg/RoadNetworkBoundaries.msg"
 )
 
-## Declare ROS messages and services
-add_message_files(DIRECTORY msg FILES
-  CommandWithHandshake.msg
-  DesiredDestination.msg
-  Direction.msg
-  DistanceToDestination.msg
-  LaneBoundary.msg
-  LaneBoundaryArray.msg
-  ModuleState.msg
-  PointOfInterestArray.msg
-  PointOfInterest.msg
-  PointOfInterestRequest.msg
-  PointOfInterestResponse.msg
-  PointOfInterestStatus.msg
-  RoadNetworkBoundaries.msg
+set(srv_files
+  "srv/GetImageForMapTile.srv"
 )
 
-add_service_files(DIRECTORY srv FILES
-  GetImageForMapTile.srv
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  ${srv_files}
+  DEPENDENCIES
+    builtin_interfaces
+    geometry_msgs
+    std_msgs
+  ADD_LINTER_TESTS
 )
 
-## Generate added messages and services
-generate_messages(DEPENDENCIES std_msgs geometry_msgs)
+ament_export_dependencies(rosidl_default_runtime)
 
-## Declare a catkin package
-catkin_package(CATKIN_DEPENDS
-  message_runtime
-  std_msgs
-  geometry_msgs
-)
-
+ament_package()
