@@ -1,5 +1,5 @@
 # Simple vehicle direction
-Header header
+std_msgs/Header header
 
 int8 BACKWARD=-1
 int8 ZERO=0

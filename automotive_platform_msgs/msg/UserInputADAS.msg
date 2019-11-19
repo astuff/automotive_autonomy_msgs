@@ -1,5 +1,5 @@
 # User input (e.g. button presses) related to the factory ADAS functions
-Header header
+std_msgs/Header header
 
 bool btn_cc_on          # Cruise Control on
 bool btn_cc_off         # Cruise Control off

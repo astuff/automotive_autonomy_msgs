@@ -1,5 +1,5 @@
 # Status of vehicle cabin sensors
-Header header
+std_msgs/Header header
 
 # The door positions below are from the point of view of someone sitting
 # in the vehicle, facing the X positive direction. Not using driver/passenger

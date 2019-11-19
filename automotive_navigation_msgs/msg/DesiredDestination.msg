@@ -1,7 +1,7 @@
 # Desired Destination Message
 # Contains the location of a desired destination
 
-Header header
+std_msgs/Header header
 
 uint8 msg_counter   # Increments each time a command is sent
                     # An acknowledge message should be published with this value
