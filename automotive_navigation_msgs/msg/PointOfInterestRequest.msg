@@ -7,7 +7,7 @@ string name        # Name of the point of interest list
 
 string module_name # module name of the requesting node
 
-uint16 requestId   # Unique id of this request
+uint16 request_id  # Unique id of this request
                    # Can make another request with the same requestId and
                    # different update_num, guid, or tolerance.  New one will
                    # replace the old one.
