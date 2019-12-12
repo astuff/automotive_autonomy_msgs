@@ -2,8 +2,8 @@
 Changelog for package automotive_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.1 (2019-12-12)
+------------------
 * Merge pull request `#15 <https://github.com/astuff/automotive_autonomy_msgs/issues/15>`_ from astuff/maint/ros1_ros2_hybrid
   ROS1/ROS2 Hybrid Packages
 * Fixing XML linting errors.
