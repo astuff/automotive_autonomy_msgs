@@ -26,7 +26,7 @@ jobs:
     - name: Create Workspace
       run: |
         source /opt/ros/$ROS_DISTRO/setup.bash
-        mkdir -p catkin_ws/src/decanstructor
+        mkdir -p catkin_ws/src/automotive_autonomy_msgs
         mv `find -maxdepth 1 -not -name . -not -name catkin_ws` catkin_ws/src/automotive_autonomy_msgs/
         cd catkin_ws
         catkin init
@@ -65,7 +65,7 @@ jobs:
     - name: Create Workspace
       run: |
         source /opt/ros/$ROS_DISTRO/setup.bash
-        mkdir -p catkin_ws/src/decanstructor
+        mkdir -p catkin_ws/src/automotive_autonomy_msgs
         mv `find -maxdepth 1 -not -name . -not -name catkin_ws` catkin_ws/src/automotive_autonomy_msgs/
         cd catkin_ws
         catkin init
@@ -83,7 +83,6 @@ jobs:
   dashing_build:
     runs-on: ubuntu-18.04
     env:
-      CI_DISTRO: "`lsb_release -cs`"  # e.g. [trusty|xenial|...]
       ROS_DISTRO: dashing
     steps:
     - uses: actions/checkout@v1
@@ -92,7 +91,7 @@ jobs:
         sudo apt-get update -qq
         sudo apt-get install curl gnupg2 lsb-release
         curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-        sudo sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu $CI_DISTRO main" > /etc/apt/sources.list.d/ros2-latest.list'
+        sudo sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
         sudo apt-get update -qq
         sudo apt-get install -y dpkg
         sudo apt-get install -y python-rosdep python3-argcomplete python3-colcon-common-extensions
@@ -103,7 +102,7 @@ jobs:
     - name: Create Workspace
       run: |
         source /opt/ros/$ROS_DISTRO/setup.bash
-        mkdir -p ament_ws/src/decanstructor
+        mkdir -p ament_ws/src/automotive_autonomy_msgs
         mv `find -maxdepth 1 -not -name . -not -name ament_ws` ament_ws/src/automotive_autonomy_msgs/
     - name: Build
       run: |
