@@ -32,9 +32,9 @@ jobs:
         catkin init
     - name: Build
       run: |
-        source /opt/ros/$ROS_DISTRO/setup.bash
+        source /opt/ros/$ROS_DISTRO/setup.bash && echo "ROS_VERSION: ${ROS_VERSION}"
         cd catkin_ws
-        catkin build
+        echo "ROS_VERSION: ${ROS_VERSION}" && catkin build
     - name: Test
       run: |
         source /opt/ros/$ROS_DISTRO/setup.bash
