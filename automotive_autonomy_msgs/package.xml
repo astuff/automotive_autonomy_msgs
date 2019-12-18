@@ -20,8 +20,6 @@
   <exec_depend>automotive_navigation_msgs</exec_depend>
   <exec_depend>automotive_platform_msgs</exec_depend>
 
-  <depend>ros_environment</depend>
-
   <export>
     <build_type condition="$ROS_VERSION == 1">catkin</build_type>
     <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>

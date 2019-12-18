@@ -22,6 +22,7 @@
 
   <depend condition="$ROS_VERSION == 1">rosbag_migration_rule</depend>
   <depend condition="$ROS_VERSION == 2">builtin_interfaces</depend>
+  <depend>ros_environment</depend>
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
 
