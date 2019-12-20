@@ -27,6 +27,7 @@ if(${ROS_VERSION} EQUAL 1)
     message_generation
     std_msgs
     geometry_msgs
+    ros_environment
   )
 
   ## Declare ROS messages and services
@@ -67,6 +68,7 @@ elseif(${ROS_VERSION} EQUAL 2)
   find_package(geometry_msgs REQUIRED)
   find_package(std_msgs REQUIRED)
   find_package(rosidl_default_generators REQUIRED)
+  find_package(ros_environment REQUIRED)
 
   # Apend "msg/" to each file name
   set(TEMP_LIST "")

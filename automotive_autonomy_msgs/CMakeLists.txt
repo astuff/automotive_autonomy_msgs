@@ -4,10 +4,14 @@ set(ROS_VERSION $ENV{ROS_VERSION})
 
 if(${ROS_VERSION} EQUAL 1)
   cmake_minimum_required(VERSION 2.8.3)
-  find_package(catkin REQUIRED)
+  find_package(catkin REQUIRED
+    COMPONENTS
+      ros_environment
+  )
   catkin_package()
 elseif(${ROS_VERSION} EQUAL 2)
   cmake_minimum_required(VERSION 3.5)
   find_package(ament_cmake REQUIRED)
+  find_package(ros_environment REQUIRED)
   ament_package()
 endif()
