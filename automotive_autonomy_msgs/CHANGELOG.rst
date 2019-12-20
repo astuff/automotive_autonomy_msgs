@@ -2,8 +2,8 @@
 Changelog for package automotive_autonomy_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.2 (2019-12-19)
+------------------
 * Adding missing dependency on ros_environment.
 * Contributors: Joshua Whitley
 
