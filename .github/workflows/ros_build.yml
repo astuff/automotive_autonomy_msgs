@@ -27,18 +27,20 @@ jobs:
       run: |
         source /opt/ros/$ROS_DISTRO/setup.bash
         mkdir -p catkin_ws/src/automotive_autonomy_msgs
-        mv `find -maxdepth 1 -not -name . -not -name catkin_ws` catkin_ws/src/automotive_autonomy_msgs/
         cd catkin_ws
         catkin init
+        catkin build
+        cd ..
+        mv `find -maxdepth 1 -not -name . -not -name catkin_ws` catkin_ws/src/automotive_autonomy_msgs/
     - name: Build
       run: |
-        source /opt/ros/$ROS_DISTRO/setup.bash && echo "ROS_VERSION: ${ROS_VERSION}"
         cd catkin_ws
-        echo "ROS_VERSION: ${ROS_VERSION}" && catkin build
+        source devel/setup.bash
+        catkin build
     - name: Test
       run: |
-        source /opt/ros/$ROS_DISTRO/setup.bash
         cd catkin_ws
+        source devel/setup.bash
         catkin test
         catkin_test_result
   melodic_build:
