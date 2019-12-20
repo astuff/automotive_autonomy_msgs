@@ -2,6 +2,11 @@
 Changelog for package automotive_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adding missing dependency on ros_environment.
+* Contributors: Joshua Whitley
+
 3.0.1 (2019-12-12)
 ------------------
 * Merge pull request `#15 <https://github.com/astuff/automotive_autonomy_msgs/issues/15>`_ from astuff/maint/ros1_ros2_hybrid
