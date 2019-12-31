@@ -2,8 +2,8 @@
 Changelog for package automotive_autonomy_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.3 (2019-12-31)
+------------------
 * Add find_package for ros_environment.
 * Contributors: Joshua Whitley
 
