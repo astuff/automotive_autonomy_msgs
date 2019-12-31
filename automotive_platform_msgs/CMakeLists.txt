@@ -1,5 +1,7 @@
 project(automotive_platform_msgs)
 
+find_package(ros_environment REQUIRED)
+
 set(ROS_VERSION $ENV{ROS_VERSION})
 
 set(MSG_FILES
@@ -45,7 +47,6 @@ if(${ROS_VERSION} EQUAL 1)
     COMPONENTS
     message_generation
     std_msgs
-    ros_environment
   )
 
   add_message_files(FILES
@@ -75,7 +76,6 @@ elseif(${ROS_VERSION} EQUAL 2)
   find_package(builtin_interfaces REQUIRED)
   find_package(std_msgs REQUIRED)
   find_package(rosidl_default_generators REQUIRED)
-  find_package(ros_environment REQUIRED)
 
   # Apend "msg/" to each file name
   set(TEMP_LIST "")
