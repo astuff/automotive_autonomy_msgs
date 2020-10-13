@@ -1,4 +1,4 @@
-# Vehicle Lateral Velocity and Acceleration Message with Covariance
+# Vehicle Longitudinal Velocity and Acceleration Message with Covariance
 
 std_msgs/Header header
 
