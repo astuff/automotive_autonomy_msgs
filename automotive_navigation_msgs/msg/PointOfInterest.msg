@@ -7,4 +7,3 @@ float64 latitude   # Latitude (degrees)
 float64 longitude  # Longitude (degrees)
 
 string params      # List of parameter:value pairs
-

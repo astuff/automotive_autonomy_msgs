@@ -20,4 +20,3 @@ uint16 guid_valid  # Request is for a specific point, not all points in list
 uint64 guid        # The unique Id for the desired point
 
 float32 tolerance  # How close to the current vehicle's position a point needs to be
-

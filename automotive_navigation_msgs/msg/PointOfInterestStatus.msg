@@ -9,4 +9,3 @@ float32 x_position # Distance in front of the vehicle (meters)
 float32 y_position # Distance to the left of the vehicle (meters)
 
 string params      # List of parameter:value pairs
-
