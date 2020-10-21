@@ -15,4 +15,3 @@ uint8 YELLOW=2
 uint8 color
 
 geometry_msgs/Point[] line
-

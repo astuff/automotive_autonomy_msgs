@@ -14,4 +14,3 @@ uint16 speed_up     # Increase speed set point
 uint16 slow_down    # Decrease speed set point
 uint16 further      # Increase distance set point
 uint16 closer       # Decrease distance set point
-
