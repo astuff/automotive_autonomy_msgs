@@ -2,8 +2,8 @@
 Changelog for package automotive_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.4 (2020-10-21)
+------------------
 * Change VelocityAccel comment from lateral to longitudinal, also remove trailing whitespace from all messages (`#23 <https://github.com/astuff/automotive_autonomy_msgs/issues/23>`_)
 * Fix package.xml website URL (`#19 <https://github.com/astuff/automotive_autonomy_msgs/issues/19>`_)
 * Contributors: Jacob Perron, icolwell-as
