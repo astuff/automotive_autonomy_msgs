@@ -2,6 +2,11 @@
 Changelog for package automotive_autonomy_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2020-10-21)
+------------------
+* Fix package.xml website URL (`#19 <https://github.com/astuff/automotive_autonomy_msgs/issues/19>`_)
+* Contributors: Jacob Perron
+
 3.0.3 (2019-12-31)
 ------------------
 * Add find_package for ros_environment.

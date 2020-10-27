@@ -2,6 +2,13 @@
 Changelog for package automotive_platform_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2020-10-21)
+------------------
+* Change VelocityAccel comment from lateral to longitudinal, also remove trailing whitespace from all messages (`#23 <https://github.com/astuff/automotive_autonomy_msgs/issues/23>`_)
+* Change velocity comment from lateral to longitudinal (`#21 <https://github.com/astuff/automotive_autonomy_msgs/issues/21>`_)
+* Fix package.xml website URL (`#19 <https://github.com/astuff/automotive_autonomy_msgs/issues/19>`_)
+* Contributors: Jacob Perron, icolwell-as
+
 3.0.3 (2019-12-31)
 ------------------
 * Add find_package for ros_environment.
